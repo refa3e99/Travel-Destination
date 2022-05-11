@@ -1,0 +1,15 @@
+.footer {
+    background-color: #c5d5c5;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    margin-top: 3vh;
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 2.5vh;
+}
