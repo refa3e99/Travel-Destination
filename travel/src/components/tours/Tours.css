@@ -1,0 +1,20 @@
+/*.tours {
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+
+img {
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+}
+
+p {
+    text-align: center;
+}
