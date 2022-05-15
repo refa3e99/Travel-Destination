@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 function Navbar(props){
 
     return (
 
         <div className="navbar">
-            <a href="#">home</a>
+            <Link to = "/">Home</Link>
         </div>
     
     );
