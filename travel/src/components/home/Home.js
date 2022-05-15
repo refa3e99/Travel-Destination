@@ -1,8 +1,8 @@
 import Header from "../header/Header";
 import Tours from "../tours/Tours";
 import Footer from "../footer/Footer";
+import '../../components/home/Home.css';
 
-import '../../components/home/Home.css'
 
 const TrvlData = require('../../data/db.json');
 function Home(props){
