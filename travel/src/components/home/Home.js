@@ -1,6 +1,7 @@
 import Header from "../header/Header";
 import Tours from "../tours/Tours";
 import Footer from "../footer/Footer";
+import Navbar from "../Navbar/Navbar";
 import '../../components/home/Home.css';
 
 
@@ -10,23 +11,11 @@ function Home(props){
     return (
 
         <div className="home">
-           <Header/>
-           
-           {
-      TrvlData.map(tours => {
-        return (
-          <Tours 
-
-            name = {tours.name}
-            image = {tours.image}
-            info = {tours.info} 
-          
-          />
-        )
-      })
-     
-     }
-        <Footer/>
+          <Header/>
+          <Navbar/>
+          <Tours data={TrvlData} /> 
+        
+          <Footer/>
         </div>
     
     );
