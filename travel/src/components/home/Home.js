@@ -12,7 +12,6 @@ function Home(props){
 
         <div className="home">
           <Header/>
-          <Navbar/>
           <Tours data={TrvlData} /> 
         
           <Footer/>

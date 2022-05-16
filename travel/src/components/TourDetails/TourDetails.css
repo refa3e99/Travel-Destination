@@ -1,0 +1,15 @@
+*{
+    align-items: center;
+    list-style: none;
+}
+img {
+    width: 90vh;
+    margin-top: 5vh;
+}
+
+div {
+    background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
